@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.counter-wrapper{
+    background-color: black;
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+}
+.add-count-button{
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+.less-count-button{
+    position: absolute;
+    top: 500px;
+    left: 130px;
+}
+.counter{
+    color: aliceblue;
+    font-size: 200px;
+    position: absolute;
+    top: 50px;
+    left: 135px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.error-window{
+    color: aliceblue;
+    text-align: center;
+}
